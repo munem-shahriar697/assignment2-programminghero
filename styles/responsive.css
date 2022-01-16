@@ -49,17 +49,73 @@
         
     }
     
-    /* @media only screen and (min-width:689px) and (max-width:991px){
-        .container{
+    @media only screen and (min-width:689px) and (max-width:991px){
+        .title-section{
             width: 100%;
         }
-        .players{
-            grid-template-columns: repeat(2,1fr);
+        .influencer{
+            width: 65%;
+            margin-bottom: 500px;
+            margin-left: 50px;
         }
-        .courses{
-            grid-template-columns: repeat(1,1fr);
+        #see-more{
+            margin-top: 1000px;
+            margin-bottom: 0;
+            margin-left: 450px;
+            position: absolute;
         }
-        .player, .course, .blog{
+        .influencer .camera-image{
+            margin-left: 0;
+            margin-top: 300px;
+        }
+        .title-section, .influencer, .menu{
             flex-direction: column;
         }
-    } */
+        .title-section{
+            align-content: center;
+        }
+        .logo-section {
+            margin-left: 0;
+            width: 25%;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .popular-collection{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            width: 50%;
+            margin: 0;
+        }
+        .popular-collection .popular-items{
+            width: 75%;
+            display: grid;
+            grid-gap: 0;
+            grid-column-gap: 150px;
+            grid-row-gap: 0;
+            margin-right: 0px;
+            padding: 0;
+            grid-template-columns: 200px repeat(1,1fr);
+        }
+        .item{
+            width: 280px;
+        }
+        .item img{
+            width: 85%;
+        }
+        .self-task{
+            width: 20%;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin-top: 1300px;
+            margin-left: 250px;
+        }
+        .self-task .vlog-video{
+            margin-left: 0;
+            padding-left: 0;
+        }
+        .self-task .vlog-text{
+            margin-left: 0;
+        }
+        .footer{
+            margin-left: -180px;
+        }
+    }
