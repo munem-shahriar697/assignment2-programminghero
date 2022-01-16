@@ -1,0 +1,39 @@
+.camera-image-camera:hover {
+    transform: scale(1.3);
+    transition: transform 1s ease-in-out;
+}
+.item-image:hover {
+    transform: scale(1.2);
+    transition: transform .5s ease-in-out;
+    overflow:hidden;
+}
+.company-logos:hover {
+    transform: scale(1.3);
+    transition: transform .5s ease-in-out;
+    overflow:hidden;
+}
+.influencer-intro h1:hover{
+    animation-name: example;
+    animation-duration: 1s;
+    overflow: hidden;
+}
+@keyframes example {
+    from {
+      margin-left: 10%;
+      width: 125%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+.menu-items:hover{
+    transform: scale(1.2);
+    transition: transform .5s ease-in-out;
+    overflow:hidden;
+}
+#button:hover{
+    transform: scale(1.2);
+    transition: transform .5s ease-in-out;
+}
