@@ -1,0 +1,313 @@
+/*---------------
+    google fonts 
+-----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/* -----------------
+        Body
+    ---------------- */
+body{
+    background-color: #aaaaaa0c;;
+    margin: 0;
+}
+    /* --------------
+    Title and menu section
+    --------------------- */
+
+    .title-section{
+        display: flex;
+        justify-content: space-between;
+        margin: 87px 120px;
+        align-items: center;
+        max-width: 3166px;
+        margin-bottom: 71px;
+    }
+/*---------------
+     page title
+---------------- */
+.page-title{
+    width: 243px;
+    margin-left: 100px;
+    margin-right: 472px;
+}
+.page-title .page-title-text{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -----------------
+        Menu
+---------------- */
+.menu{
+    display: flex;
+    width: 463px;
+}
+.menu .menu-items a{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ----------------
+Influencer section
+------------------ */
+.influencer{
+    display: flex;
+    max-width: 3166px;
+    margin-bottom: 71px;
+    margin-left: 213px;
+    align-items: stretch;
+}
+.influencer .influencer-intro{
+    width: 582px;
+    height: 270px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.influencer .influencer-details{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+.influencer a{
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    padding: 1%;
+    background-color:darkcyan;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.influencer .camera-image img{
+    position: absolute;
+}
+.influencer .camera-image{
+    margin-left: 440px;
+}
+.camera-image-camera{
+    top: 265px;
+    width: 440px;
+    height: 414px;
+}
+.camera-image-circle{
+    z-index: -1;
+    width: 475px;
+    height: 475px;
+}
+
+/* ----------------------
+    optional logo section
+    ---------------------- */
+.logo-section{
+    margin-left: 337px;
+    margin-right: 227px;
+    width: 1200px;
+    height: 110px;
+    margin-top: 400px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-column-gap: 15px;
+    border: 0.1em solid rgba(0, 0, 0, 0.164);
+    border-left: none;
+    border-right: none;
+    align-items: center;
+}
+.company-logos{
+    padding-left: 50px;
+    padding-top: 0px;
+}
+
+/* --------------------
+    popular collection
+    -------------------- */
+.popular-collection{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.popular-collection .popular-collection-title h2{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.popular-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1047px;
+    height: 1545px;
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
+}
+.item{
+    background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+}
+.popular-items .item-details .item-text-inter{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #787885;
+    letter-spacing: 1.8%;
+}
+.popular-items .item-details .item-price{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.popular-items .item-details span{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: #787885;
+}
+.popular-items .item-image{
+    width: 300px;
+    height: 256px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5px;
+    padding-left: 14px;
+    border-radius: 8px;
+    height: 485px;
+    width: 320px;
+}
+.item-details{
+    justify-content: left;
+}
+.item-details .item-name{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+
+.fa-star, .fa-star-half-alt{
+    font-size: 12px;
+    color: #FB8200;
+}
+
+/*------------
+   See more  
+------------*/
+#see-more{
+    text-decoration: none;
+    margin-left: 1350px;
+    color: #E02C6D;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Self task */
+.self-task{
+    width: 800px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 100px;
+    
+}
+.vlog-video{
+    margin-left: 800px;
+}
+.vlog-text{
+    margin-left: 100px;
+}
+.vlog-text h2{
+    width: 500px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.vlog-text p{
+    width: 500px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.self-task .vlog-text a{
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    padding: 1%;
+    background-color:darkcyan;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* ----------------
+Footer
+-------------------- */
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    font-family: "Poppins", sans-serif;
+}
+.footer h3{
+    padding-top: 50px;
+    font-size: 26px;
+    font-weight: 700;
+}
+.footer p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer .socials{
+    font-size: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer .socials i{
+    margin: 0 10px;
+    padding: 10px 10px;
+    border: 1px solid rgb(64, 70, 99);
+    background-color: rgb(64, 70, 99);
+    border-radius: 50%;
+}
+.footer .socials a{
+    text-decoration: none;
+    color: white
+}
