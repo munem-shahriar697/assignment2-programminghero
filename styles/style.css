@@ -13,6 +13,7 @@
 body{
     background-color: #aaaaaa0c;;
     margin: 0;
+    max-width: 3166px;
 }
     /* --------------
     Title and menu section
@@ -63,7 +64,7 @@ Influencer section
 ------------------ */
 .influencer{
     display: flex;
-    max-width: 3166px;
+
     margin-bottom: 71px;
     margin-left: 213px;
     align-items: stretch;
@@ -102,7 +103,7 @@ Influencer section
     margin-left: 440px;
 }
 .camera-image-camera{
-    top: 265px;
+    /* top: 265px; */
     width: 440px;
     height: 414px;
 }

@@ -1,0 +1,65 @@
+/* ------------------
+    Media Queries
+    ----------------- */
+
+    @media only screen and (max-width:688px){
+        .title-section{
+            width: 80%;
+        }
+        .influencer{
+            width: 65%;
+            margin-bottom: 500px;
+            margin-left: 50px;
+        }
+        #see-more{
+            margin-top: 3000px;
+            margin-bottom: 0;
+            margin-left: 450px;
+            position: absolute;
+        }
+        .influencer .camera-image{
+            margin-left: 0;
+            margin-top: 300px;
+        }
+        .title-section, .influencer, .menu{
+            flex-direction: column;
+        }
+        .logo-section {
+            grid-template-columns: repeat(1,1fr);
+        }
+        .popular-collection .popular-items{
+            width: 60%;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .self-task{
+            width: 20%;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin-top: 3300px;
+            margin-left: 250px;
+        }
+        .self-task .vlog-video{
+            margin-left: 0;
+            padding-left: 0;
+        }
+        .self-task .vlog-text{
+            margin-left: 0;
+        }
+        
+    }
+    
+    /* @media only screen and (min-width:689px) and (max-width:991px){
+        .container{
+            width: 100%;
+        }
+        .players{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .courses{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .player, .course, .blog{
+            flex-direction: column;
+        }
+    } */
