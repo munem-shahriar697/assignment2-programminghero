@@ -160,8 +160,8 @@ Influencer section
 }
 .item{
     background: #FFFFFF;
-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
 }
 .popular-items .item-details .item-text-inter{
     font-size: 14px;
@@ -194,8 +194,8 @@ border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 5px;
-    padding-left: 14px;
+    padding-top: 16px;
+    padding-left: 20px;
     border-radius: 8px;
     height: 485px;
     width: 320px;
